@@ -2,11 +2,56 @@
 
     display: flex;
     justify-content: space-between;
-
+    margin: 0 5em 0 5em;
 }
 
 .footerStyle {
 
     margin: 5em 0  5em 0;
+
+}
+
+.containerSocials {
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.twitterStyle {
+
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.instagramStyle {
+
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.linkedinStyle {
+
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.socialIcon {
+
+    width: 25px;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+
+}
+
+
+.socialIcon.dimmed {
+
+    opacity: 0.5;
 
 }
