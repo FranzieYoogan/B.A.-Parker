@@ -1,0 +1,14 @@
+@font-face {
+    font-family: FuturaPt;
+    src: url('./assets/fonts/FuturaPTBold.otf')
+  }
+
+  @font-face {
+    font-family: FuturaPtLight;
+    src: url('./assets/fonts/FuturaPTLightOblique.otf')
+  }
+
+  @font-face {
+    font-family: proxima-nova;
+    src: url('./assets/fonts/proxima/Proxima Nova Alt Condensed Light.otf')
+  }

@@ -1,0 +1,12 @@
+.containerAllFooter {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerStyle {
+
+    margin: 5em 0  5em 0;
+
+}

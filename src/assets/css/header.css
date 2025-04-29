@@ -1,0 +1,29 @@
+.menuButtonHeader {
+
+    background-color: transparent;
+
+
+}
+
+.spanHeader {
+
+    font-family: proxima-nova;
+    font-weight: 400 ; 
+    font-size: 15px;
+    color: rgb(33, 135, 105);
+
+}
+
+.menuButtonHeader {
+    background-color: transparent !important;
+    border-top: 2px solid gray !important;
+    position: relative;
+    width: 300px;
+
+}
+
+.titleHeader {
+
+    font-family: FuturaPt;
+
+}
