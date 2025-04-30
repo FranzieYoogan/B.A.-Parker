@@ -2,6 +2,7 @@ import Footer from "./footer";
 import './assets/css/selectedWork.css'
 import codeSwitch from './assets/images/selectedWork/codeSwitch.jpeg'
 import bbcBlack from './assets/images/selectedWork/bbcBlack.jpeg'
+import minutes from './assets/images/selectedWork/minute.jpeg'
 
 function selectedWork() {
 
@@ -67,6 +68,26 @@ Ep. 4</p> <br /> <br />
 
 
                 <div>
+
+                    <div className="imgSelectedWork"><img src={minutes} alt="" /></div>
+
+                    <div>
+
+        <p className="pMinutes">Staying grounded after Roe v. Wade; plus, let’s talk about fat liberation <span className="dateCodeSwitch"> (Jul 1, 2022) </span> <br /> <br />
+
+When parents say sorry on-screen  (Jun 28, 2022) 
+
+Guess who’s back in the house (music scene); plus, ‘Would it Kill You to Laugh’ <span className="dateCodeSwitch"> (Jun 24, 2022) </span> <br /> <br />
+
+Fangirls rule the internet in 'Everything I Need, I Get From You' <span className="dateCodeSwitch"> (Jun 21, 2022)</span> <br /> <br />
+
+Why old is new again in pop music; plus, ‘Rutherford Falls' <span className="dateCodeSwitch"> (Jun 17, 2022) </span> <br /> <br />
+
+Joseph Han on U.S. imperialism, Korean ghosts and Guy Fieri <span className="dateCodeSwitch"> (Jun 14, 2022) </span> <br /> <br />
+
+Even influencers are burning out: plus, there’s nothing boring about ‘Normal Gossip’ <span className="dateCodeSwitch"> (Jun 10, 2022)</span></p> <br /> <br />
+
+                    </div>
 
 
                 </div>

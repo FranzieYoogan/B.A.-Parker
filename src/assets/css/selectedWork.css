@@ -4,9 +4,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 0 1em;
+    margin: 5em 1em;
     align-items: start;
-
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2em 0 0 0;
 }
 
 .codeSwitchText {
@@ -52,4 +53,14 @@
 
     color: rgba(0, 0 , 0, 0.5);
     font-weight: 300;
+}
+
+.pMinutes {
+
+    text-align: center;
+    font-family: proxima-nova;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 3em;
+
 }
