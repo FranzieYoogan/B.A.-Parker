@@ -1,0 +1,55 @@
+.containerSelectedWork1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
+    align-items: start;
+
+}
+
+.codeSwitchText {
+
+    font-family: proxima-nova;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 3em;
+}
+
+
+.dateCodeSwitch {
+
+    color: rgba(0, 0 , 0, 0.5);
+
+}
+
+.imgSelectedWork {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgBbcBlack {
+
+    width: 300px;
+
+}
+
+.pBbcBlack {
+
+    text-align: center;
+    font-family: proxima-nova;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 3em;
+
+}
+
+.spanBbcBlack {
+
+    color: rgba(0, 0 , 0, 0.5);
+    font-weight: 300;
+}
