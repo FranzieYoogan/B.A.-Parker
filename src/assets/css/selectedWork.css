@@ -7,7 +7,20 @@
     margin: 5em 1em;
     align-items: start;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 2em 0 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5em 0 2em 0;
+}
+
+.containerSelectedWork2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 1em;
+    align-items: start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.5em 0 2em 0;
 }
 
 .codeSwitchText {
