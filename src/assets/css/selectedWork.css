@@ -23,6 +23,17 @@
     padding: 0.5em 0 2em 0;
 }
 
+.containerSelectedWork3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 1em;
+    align-items: start;
+    padding: 0.5em 0 2em 0;
+}
+
 .codeSwitchText {
 
     font-family: proxima-nova;

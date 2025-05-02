@@ -6,6 +6,9 @@ import minutes from './assets/images/selectedWork/minute.jpeg'
 import cut from './assets/images/selectedWork/cut.png'
 import america from './assets/images/selectedWork/america.png'
 import npr from './assets/images/selectedWork/npr.jpeg'
+import radio from './assets/images/selectedWork/radio.jpeg'
+import nancy from './assets/images/selectedWork/nancy.jpeg'
+import heavy from './assets/images/selectedWork/heavy.png'
 
 function selectedWork() {
 
@@ -174,6 +177,75 @@ The End of Empathy <span className="dateCodeSwitch"> (Apr 12, 2019) -  A story t
                     </div>
 
                 </div>
+
+               
+
+
+            </section>
+
+
+
+
+            <section className="containerSelectedWork3">
+
+            <div>
+
+                    <div className="imgSelectedWork">
+
+                        <img src={radio} alt="" />
+
+                    </div>
+
+                    <div>
+
+                        <p className="codeSwitchText">No Special Duty  <br /> <br />
+
+<span className="dateCodeSwitch">(Oct 2, 2020) - What are the police for?</span></p>
+
+                    </div>
+
+            </div>
+
+
+            <div>
+
+
+                    <div className="imgSelectedWork">
+
+                        <img src={nancy} alt="" />
+
+                    </div>
+
+                    <div>
+
+                        <p className="codeSwitchText">All the Fine Girls Be There <br /> <br />
+
+<span className="dateCodeSwitch">(Jun 22, 2020) - A deep dive into the world of an <br /> underground Black lesbian strip club in Los Angeles.</span> </p>
+
+
+                    </div>
+
+
+
+            </div>
+
+
+            <div>
+
+
+                    <div className="imgSelectedWork">
+
+                        <img src={heavy} alt="" />
+
+                    </div>
+
+                    <div>
+
+                        <p className="codeSwitchText">Elyse <span className="dateCodeSwitch">(Nov 21, 2019) - For the first time in five years, <br /> Elyse talks to her father who just … disappeared.</span></p>
+
+                    </div>
+
+            </div>
 
 
             </section>
