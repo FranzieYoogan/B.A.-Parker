@@ -1,0 +1,24 @@
+.containerAllPress {
+
+    display: flex;
+    justify-content: center;
+    margin: 5em 0 5em 0;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.anchorPress {
+
+    font-family: FuturaPtLight;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(180, 179, 179);
+    color: rgb(68, 68, 68);
+}
+
+.anchorPress:hover {
+
+    border-bottom: 2px solid rgb(68, 68, 68);
+
+}
+

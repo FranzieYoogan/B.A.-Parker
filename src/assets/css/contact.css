@@ -1,0 +1,122 @@
+.containerAllContact {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contactTitle {
+
+    font-family: FuturaPtLight;
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+}
+
+.howItGoing {
+
+    color: rgb(33, 135, 105);
+    font-family: FuturaPtLight;
+    font-size: 25px;
+    margin: 4em 0 0.5em 0;
+    
+}
+
+
+.titleForm {
+
+    font-family: proxima-nova;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+
+}
+
+.containerName {
+
+    display: flex;
+    gap: 2em;
+
+}
+
+.containerLastName {
+
+    margin-top: 22px;
+
+}
+
+.containerEmail {
+
+    margin-top: 22px;
+
+}
+
+
+/*   INPUT   */
+
+.inputName {
+
+    width: 400px;
+
+}
+
+.inputEmail {
+
+    width: 832px;
+
+}
+
+input:focus, input:active, textarea:active, textarea:focus {
+
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid black;
+    
+
+}
+
+
+/*  LABEL */
+
+.labelName {
+
+    font-family: proxima-nova;
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+
+}
+
+.labelEmail {
+
+    cursor: pointer;
+
+}
+
+
+/* BUTTON */
+
+.containerButton {
+
+    margin: 10px 0 5em 0;
+
+}
+
+.buttonSubmit {
+
+    background-color: black;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    font-family: proxima-nova;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.buttonSubmit:hover {
+
+    background-color: rgb(139, 139, 139);
+    transition: 1s;
+
+}
