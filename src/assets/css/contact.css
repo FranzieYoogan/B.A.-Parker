@@ -1,122 +1,145 @@
-.containerAllContact {
 
+
+/* Layout */
+.containerAllContact {
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    padding: 3em 1em;
+    background-color: #fff;
 }
 
+.formWrapper {
+    width: 100%;
+    max-width: 900px;
+}
 
+/* Headings */
 .contactTitle {
-
     font-family: FuturaPtLight;
     font-size: 30px;
     color: rgb(34, 34, 34);
+    margin-bottom: 0.5em;
 }
 
 .howItGoing {
-
     color: rgb(33, 135, 105);
     font-family: FuturaPtLight;
     font-size: 25px;
-    margin: 4em 0 0.5em 0;
-    
+    margin: 1em 0 2em 0;
 }
 
-
+/* Form Sections */
 .titleForm {
-
     font-family: proxima-nova;
     color: rgb(87, 87, 87);
     font-size: 15px;
-
+    margin-bottom: 0.5em;
 }
 
 .containerName {
-
     display: flex;
+    flex-wrap: wrap;
     gap: 2em;
-
+    margin-bottom: 22px;
 }
 
+.firstNameContainer,
 .containerLastName {
-
-    margin-top: 22px;
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 250px;
 }
 
 .containerEmail {
-
     margin-top: 22px;
-
+    display: flex;
+    flex-direction: column;
 }
 
-
-/*   INPUT   */
-
-.inputName {
-
-    width: 400px;
-
-}
-
+/* Inputs */
+.inputName,
 .inputEmail {
-
-    width: 832px;
-
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: proxima-nova;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-input:focus, input:active, textarea:active, textarea:focus {
+textarea.inputEmail {
+    resize: vertical;
+}
 
+input:focus, input:active, textarea:focus, textarea:active {
     border-radius: 5px;
     box-shadow: none;
     outline: none;
     border: 2px solid black;
-    
-
 }
 
-
-/*  LABEL */
-
-.labelName {
-
+/* Labels */
+.labelName,
+.labelEmail {
     font-family: proxima-nova;
     font-size: 12px;
     color: rgb(87, 87, 87);
     cursor: pointer;
-
-}
-
-.labelEmail {
-
-    cursor: pointer;
-
+    margin-bottom: 0.3em;
 }
 
 
-/* BUTTON */
-
+/* Button */
 .containerButton {
-
-    margin: 10px 0 5em 0;
-
+    margin: 2em 0 5em 0;
 }
 
 .buttonSubmit {
-
     background-color: black;
-    color: rgb(255,255,255);
+    color: white;
     font-size: 20px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px;
     font-family: proxima-nova;
     cursor: pointer;
-    transition: 1s;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 4px;
 }
 
 .buttonSubmit:hover {
-
     background-color: rgb(139, 139, 139);
-    transition: 1s;
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contactTitle {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .howItGoing {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .containerName {
+        flex-direction: column;
+    }
+
+    .inputName,
+    .inputEmail,
+    textarea.inputEmail {
+        width: 100%;
+    }
+
+    .buttonSubmit {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .containerButton {
+        display: flex;
+        justify-content: center;
+    }
 }
