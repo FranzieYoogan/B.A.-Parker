@@ -143,3 +143,11 @@ input:focus, input:active, textarea:focus, textarea:active {
         justify-content: center;
     }
 }
+
+/*  ALERT  */
+
+.containerAlert {
+
+    margin-top: 1.5em;
+
+}
